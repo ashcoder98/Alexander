@@ -1,13 +1,6 @@
-Array = ['green', 'yellow', 'black', 'blue', 'red', 'purple', 'orange', 'turquoise', 'silver']
+const hamburger = document.getElementById('hamburger');
+const navUL = document.getElementById('nav-ul');
 
-function getFirstThree(colors) {
-    let firstThree = []
-    colors.map((e, i) => {
-        if (i < 3){
-            firstThree.push(e)
-        }
-
-    })
-    return console.log(firstThree)
-}
-getFirstThree(Array)
+hamburger.addEventListener('click', () => {
+    navUL.classList.toggle('show');
+});
