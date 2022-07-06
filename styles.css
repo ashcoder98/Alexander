@@ -25,11 +25,7 @@ header {
     padding: 0px 30px;
     text-align: center;
 }
-/* .nav span {
-    text-align: center;
-    justify-content: center;
-    padding: 10px 30px 0px 30px;
-} */
+
 #hamburger {
     cursor: pointer;
     display: none;
@@ -41,7 +37,8 @@ header {
 
 
 body {
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
     background-color: #faedcd;
     
 }
@@ -82,14 +79,19 @@ body {
     transform-origin: bottom left;
    }
 
-section {
+.section {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     letter-spacing: 2px;
      justify-content: center; 
      align-items: center;
     text-align: center;
+    flex-direction: column;
+}
+.info {
+    width: 50%;
+    height: 50%;
 }
 footer {
     position: sticky;
