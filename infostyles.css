@@ -1,7 +1,9 @@
-/* .section {
-    width: 50%;
-    justify-content: center;
-} */
+.bio h1 {
+    margin-bottom: 40px;
+}
+.section {
+    justify-content: null;
+}
 /* From uiverse.io by @adamgiebl */
 .button {
     margin-bottom: 40px;
