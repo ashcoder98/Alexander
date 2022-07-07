@@ -106,9 +106,19 @@ footer {
     background-color: #fbe2a0;
     padding: 50px;
 }
+.show p{
+    display: block;
+}
+.hide p{
+    display: none;
+}
+
+
+
 #close.hide {
     display: none;
 }
+
 @media screen and (max-width: 35rem){
     /* section {
         display: flex;
