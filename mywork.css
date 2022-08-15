@@ -1,0 +1,106 @@
+.Portfolio {
+    display: flex;
+    flex-grow: 1;
+  }
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .projectlist {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+  }
+  .links a {
+    transition: all 0.3s ease 0s;
+  }
+  .links a:hover {
+    color: #F29068;
+  }
+  .card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 70%;
+    /* background-color: rgba(255, 255, 255, 0.90); */
+    border: 2px solid ;
+    border-radius: 10px;
+  }
+  .card span {
+    /* color: #6C7457; */
+    font-weight: bold;
+    font-size: 1.35rem;
+  }
+  .card a {
+    font-size: 1.5em;
+    width: 20%;
+    /* color: #F29068; */
+    margin-right: 5%;
+    margin-left: 5%;
+    transition: all 0.3s ease 0s;
+  }
+  .card a:hover {
+    color: #826754;
+  }
+  .card button {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #826754;
+    border-radius: 10px;
+  }
+  .card-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+  }
+  .github {
+    font-size: 3rem;
+  }
+  
+  .card p {
+    padding: .5rem 0rem;
+    
+  }
+  .card img {
+    width: 40%;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  hr {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  @media (max-width: 35em) {
+    
+    .card {
+      flex-direction: column;
+    }
+    .card-content{
+      flex-direction: column;
+      width: 80%;
+    }
+    .card img {
+      flex-direction: column;
+      width: 80%;
+    }
+    .card a {
+      width: 50%;
+    }
+  }
