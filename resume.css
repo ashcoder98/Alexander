@@ -1,0 +1,22 @@
+.resumeimage {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .resumeimage button {
+    margin-bottom: 1rem;
+  }
+  embed {
+    height: 700px;
+    width: 80%;
+  }
+  @media (max-width: 35em) {
+    embed {
+      width: 97%;
+      /* height: 50%; */
+    }
+  }
